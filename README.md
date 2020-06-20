@@ -1,3 +1,48 @@
+1.Difference between let, var and const?
+* Var is used to declare variables in the global scope
+* if the variable is declared inside the function then variable is function scoped
+* if the variable is declared outside the function then variable is accessible to entire window, since window object stores all global objects,variables,functions
+* Var can be redeclared and reupdated
+
+**Let: 
+* Let is block scoped, Let is only accessible in the block({} i.e code which is written inside the curly braces) 
+* Let can be reupdated but cannot be redeclared.
+
+**Const : 
+* Const is used to declare fixed values.Const cannot be redeclared nor reupdated.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
